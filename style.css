@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    user-select: none;
+    border-collapse: separate;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #780206, #061161);
+}
+
+.capt-p{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.capt-sp-first{
+    background-color: rgb(16, 73, 16);
+    cursor: pointer;
+    transition: all ease 0.4s;
+    padding: 4px 4px;
+}
+
+.capt-sp-first:hover{
+    background-color: rgb(24, 131, 24);
+}
+
+.capt-sp-second{
+    background-color: rgb(104, 104, 16);
+    cursor: pointer;
+    transition: all ease 0.4s;
+    padding: 4px 4px;
+}
+
+.capt-sp-second:hover{
+    background-color: rgb(160, 160, 27);
+}
+
+.capt-sp-third{
+    background-color: rgb(90, 29, 7);
+    cursor: pointer;
+    transition: all ease 0.4s;
+    padding: 4px 4px;
+}
+
+.capt-sp-third:hover{
+    background-color: rgb(153, 62, 28);
+}
+
+.capt-sp-fourth{
+    background-color: rgb(67, 10, 121);
+    cursor: pointer;
+    transition: all ease 0.4s;
+    padding: 4px 4px;
+}
+
+.capt-sp-fourth:hover{
+    background-color: rgb(110, 23, 190);
+}
+
+.table{
+    border: 1px solid black;
+    height: 40vh;
+    width: 75%;
+}
+
+.tr, .th, .td{
+    border: 1px solid black;
+    border-collapse: separate;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.th-day{
+    background-color: rgb(19, 16, 16);
+    font-weight: 400;
+    user-select: text;
+    font-size: 20px;
+    padding: 0px 12px;
+    transition: all ease 0.4s;
+}
+
+.th-day:hover{
+    background-color: rgb(56, 49, 49);
+}
+
+.th-day:active{
+    background-color: rgb(85, 76, 76);
+}
+
+.top-sp .top-time, .lesson-sp, .bottom-p{
+    display: block;
+    text-align: center;
+}
+
+.top-time{
+    font-size: 18px;
+}
+
+.td{
+    transition: all ease 0.4s;
+}
+
+.td:hover{
+    background: gray;
+}
+
+.td:active{
+    background: rgb(51, 37, 37);
+}
+
+.td-bottom{
+    border: 1px solid black;
+    transition: all ease 0.4s;
+    height: 36px;
+}
+
+.bottom-p{
+    user-select: text;
+}
+
+.bottom-link{
+    text-decoration: none;
+    color: orangered;
+    transition: all ease 0.4s;
+}
+
+.bottom-link:hover{
+    color: yellow;
+}
+
+@media only screen and (max-width:2100px) {
+    /* For tablets: */
+    .table{
+        zoom: 120%;
+    }
+}
+
+@media only screen and (max-width:1800px) {
+    /* For tablets: */
+    .table{
+        zoom: 110%;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    /* For tablets: */
+    .capt-sp-first,.capt-sp-second,.capt-sp-third,.capt-sp-fourth{
+        zoom: 90%;
+    }
+}
+  
+@media only screen and (max-width:870px) {
+    /* For tablets: */
+    .capt-sp-first,.capt-sp-second,.capt-sp-third,.capt-sp-fourth{
+        zoom: 80%;
+    }
+    .table{
+        zoom: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    /* For tablets: */
+    .table{
+        zoom: 90%;
+    }
+}
+
+@media only screen and (max-width:648px) {
+    /* For tablets: */
+    .table{
+        zoom: 90%;
+    }
+}
+
+@media only screen and (max-width:638px) {
+    /* For tablets: */
+    .capt-sp-first,.capt-sp-second,.capt-sp-third,.capt-sp-fourth{
+        zoom: 76%;
+    }
+    .table{
+        zoom: 80%;
+    }
+}
+
+@media only screen and (max-width:578px) {
+    /* For tablets: */
+    .capt-sp-first,.capt-sp-second,.capt-sp-third,.capt-sp-fourth{
+        zoom: 70%;
+    }
+    .table{
+        zoom: 76%;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    /* For tablets: */
+    .capt-sp-first,.capt-sp-second,.capt-sp-third,.capt-sp-fourth{
+        zoom: 60%;
+    }
+    .table{
+        zoom: 66%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* For tablets: */
+    .capt-sp-first,.capt-sp-second,.capt-sp-third,.capt-sp-fourth{
+        zoom: 54%;
+    }
+    .table{
+        zoom: 60%;
+    }
+}
